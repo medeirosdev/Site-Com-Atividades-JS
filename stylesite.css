@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+html{
+    font-size: 67,5%;
+    background-color: #CA7040  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+/* ---------------------------------------------------- menu nav foda -------------------------- */
+#navbar{
+    width:100%;
+    height: 10vh;
+    background-color: #220D00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    position:fixed;
+    color: #D95A11;
+}
+
+#listnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.itemnav{
+    margin:1rem;
+    transition: 0.7s;
+    width:10vw;
+    padding: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.itemnav:hover{
+    color:#F2DFE4;
+   /* border-top: 3px solid white;    para fazer efeito no top      */
+    border-bottom: 3px solid #F2DFE4;
+    
+
+}
+
+#homenav{
+    margin-left:2rem;
+    margin-right:2rem;
+    width:35vw;
+    cursor: pointer;
+    color: #D95A11 ;
+    z-index: 10;
+}
+
+#homenav:hover{
+    border-bottom: 3px solid white;
+}
+
+
+
+
+/* ---------------------------------------------------- fim menu nav foda -------------------------- */
+/* ---------------------------------------------------- Títulos e textos -------------------------- */
+h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding:1rem;
+    margin-top:1rem;
+}
+
+h2{
+    
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding:1rem;
+}
+
+h3{
+    color:#1a0a00;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding-top:4rem;
+    
+}
+
+hr {
+	border: 0;
+	border-top: 5px solid  #220D00;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+
+/* ---------------------------------------------------- Fim Títulos e textos -------------------------- */
+/* ---------------------------------------------------- Imagens    ------ -------------------------- */
+
+#coffeimg{
+    width:20%;
+    margin-left:35rem;
+}
+
+#coffeimg2{
+    width:100%;
+    height: 60vh;
+}
+
+#bannerhome{
+    background-image: url("coff2.jpg");
+    width:100%;
+    height: 60vh;
+}
+
+
+
+/* ---------------------------------------------------- Fim imagens -------------------------- */
+
+#footer{
+    display:flex;
+    flex-direction: column;
+    color:#1a0a00;
+    opacity: 0.6;
+    align-items: center;
+    text-align: center;
+
+}
+
+.pfoot{
+    margin:1rem;
+}
+
+
+
+/* -------------------------------------------------SEGUNDA PÁGINA DA LAMPADA -------------------------- */
+
+
+#lampada1{
+    width:20%;
+    margin:auto;
+    margin-left:35rem;
+}
+
+#buttonslamp{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:5rem;
+}
+
+#button1, #button2, #button3, #button4 , #button5 {
+    width:10%;
+    height: 15vh;
+}
+
+
+/* -------------------------------------------------TERCEIRA PÁGINA DA COUNTDOWN -------------------------- */
+
+#maindiv{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
+
+#dias1,#horas1,#minutos1,#segundos1{
+    display:flex;
+    flex-direction: column;
+}
+
+#dias2,#horas2,#minutos2,#segundos2{
+    font-size: 12rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
