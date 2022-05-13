@@ -1,0 +1,19 @@
+[{
+    "Produtos1":"Cosméticos" ,
+
+    "Produtos2":"Comidas" ,
+
+    "values": {
+        "cafe" : 50 ,
+        "sabonete" : 40 ,
+        "escova" : 30 ,
+        "shampoo" : 10 ,
+        "cookie" : 5 ,
+        "bolacha" : 300 ,
+        "queijo" : 150 
+    } ,
+
+
+    "fila" : [1,2,3,4],
+    "fila2" : ["marcos, abril, alun , junho"]
+}]

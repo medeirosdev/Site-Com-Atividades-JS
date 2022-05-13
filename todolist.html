@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="stylesite.css" rel="stylesheet">
+    <title>TO DO LIST</title>
+    <link href="csstodolist.css" rel="stylesheet">
 </head>
 <body>
     <!--- nav bar html ---------------------------------------------------------------------------->
@@ -13,7 +13,7 @@
         <a id="homenav" href="pagprincipal.html">PÁGINA INICIAL</a>
         <ul id="listnav">
             <li><a href="lampada.html" itemnav">LÂMPADA MÁGICA</a></li>
-            <li><a href="countdawn.html" class="itemnav">Countdown</a></li>
+            <li><a href="countdawn.html"  class="itemnav">Countdown</a></li>
             <li><a href="todolist.html" class="itemnav">To-do List</a></li>
             <li><a class="itemnav">Drum Kit</a></li>
             <li><a href="slidesshows.html" class="itemnav">Slide Show</a></li>
@@ -22,39 +22,40 @@
     <br>
     <br>
     <!--- nav bar html ---------------------------------------------------------------------------->
-    <h1> Contagem regressiva para a hora do café & coder</h1>
-    <div id="maindiv"> 
-        <div id="dias1">
-
-            <p id="dias2">00</p>
-            <p class="text">DIAS</p>
-
-        </div>
-
-        <div id="horas1">
-
-            <p id="horas2">00</p>
-            <p class="text" >HORAS</p>
-
-        </div>
-
-        <div id="minutos1">
-
-            <p id="minutos2">00</p>
-            <p class="text" >MINUTOS</p>
 
 
-        </div>
 
-        <div id="segundos1">
 
-            <p id="segundos2">00</p>
-            <p class="text">SEGUNDOS</p>
 
-        </div>
-    </div>
+
+
+
+
+
+
+
     
+    <div class="todo">
+        <!-- TÍTULO DO TO DO LIST  ------------------------------------------>
+        <div class="todo__title" >
+            TO DO  LIST SUPER COOKIE
+        </div>
+        <!-- TÍTULO DO TO DO LIST FIM  ------------------------------------------>
+        <div class="todo__list" id="todoList">
 
+        </div>
+
+        <!-- PARA ADICIONAR NOVOS ITENS ---------------------------------------->
+        <div class="todo__new-item">
+            <div>&and;</div>
+            <input type="text" id="newItem" placeholder="Digite e pressione enter para adicionar a tarefa">
+            <div>&and;</div>
+        </div>
+         <!-- PARA ADICIONAR NOVOS ITENS ---------------------------------------->
+    </div>
+
+
+     <!---fim do main ---------------------------------------------------------------------------->
     <!--- footer ---------------------------------------------------------------------------->
     <hr>
     <footer id="footer">
@@ -63,6 +64,7 @@
         <p class="pfoot"> Instagram  --  twitter -- Facebook -- Orkut</p>
     </footer>
     <!--- footer ---------------------------------------------------------------------------->
-    <script src="js1.js"></script>
+
+<script src="js2.js"></script>
 </body>
 </html>

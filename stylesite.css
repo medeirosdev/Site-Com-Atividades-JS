@@ -6,6 +6,11 @@
     
 }
 
+a{
+    text-decoration: none;
+
+}
+
 html{
     font-size: 67,5%;
     background-color: #CA7040  ;
@@ -84,7 +89,7 @@ h2{
     padding:1rem;
 }
 
-h3{
+h3, h4 , #cadas{
     color:#1a0a00;
     align-items: center;
     text-align: center;
@@ -161,7 +166,18 @@ hr {
 #button1, #button2, #button3, #button4 , #button5 {
     width:10%;
     height: 15vh;
+    background-color: #1a0a00;
+    border:#1a0a00;
+    color:#D95A11;
+    text-transform: uppercase;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.50), 0 6px 6px rgba(0,0,0,0.40);
+    
 }
+
+#button1, #button2, #button3, #button4 , #button5 :hover{
+    scale:1.1;
+}
+
 
 
 /* -------------------------------------------------TERCEIRA PÁGINA DA COUNTDOWN -------------------------- */
@@ -192,10 +208,4 @@ hr {
 
 
 
-
-
-
-
-
-
-
+/* -------------------------------------------------to-do list-------------------------- */
