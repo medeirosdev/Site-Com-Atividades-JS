@@ -3,6 +3,7 @@
 
 
 
+
 // página da lampada mágica //
 const lamp1 = document.getElementById("lampada1");
 
@@ -83,27 +84,6 @@ setInterval(countdown,1)
 
 
 //--------------------------------------- fim da parte do countdown ------------------------------------------
-
-//--------------------------------------- parte dos sliders shows------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//--------------------------------------- TO DO LIST JAVASCRIPT FODA  ------------------------------------------
 
 
 

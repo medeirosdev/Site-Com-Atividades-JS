@@ -94,8 +94,8 @@ body {
 .todo__title {
     display: flex;
     background-color: var(--secondary-color);
-    width: 100%;
-    height: 80px;
+    width: 101%;
+    height: 5rem;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -192,4 +192,8 @@ body {
 
 
 
-/* -------------------------------------------------SEGUNDA PÁGINA DA LAMPADA -------------------------- */
+a:link, a:visited,  a:hover, a:active
+{
+    color:#D95A11;
+    text-decoration: none;
+}

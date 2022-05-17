@@ -6,9 +6,10 @@
     
 }
 
-a{
+a:link, a:visited,  a:hover, a:active
+{
+    color:#D95A11;
     text-decoration: none;
-
 }
 
 html{
@@ -107,6 +108,20 @@ hr {
     margin-bottom:2rem;
 }
 
+h5{
+    margin:0,4rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+
+}
+h6{
+    margin:0,6rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+    
+}
 
 /* ---------------------------------------------------- Fim Títulos e textos -------------------------- */
 /* ---------------------------------------------------- Imagens    ------ -------------------------- */
@@ -171,15 +186,31 @@ hr {
     color:#D95A11;
     text-transform: uppercase;
     box-shadow: 0 10px 20px rgba(0,0,0,0.50), 0 6px 6px rgba(0,0,0,0.40);
+    transition: 0.6s;
     
 }
 
-#button1, #button2, #button3, #button4 , #button5 :hover{
+#button1:hover{
+    scale:1.1;
+}
+#button2:hover{
+    scale:1.1;
+}
+#button3:hover{
+    scale:1.1;
+}
+#button4:hover{
+    scale:1.1;
+}
+#button5:hover{
     scale:1.1;
 }
 
 
-
+#divimagem{
+    border:#1a0a00 2px;
+    padding:auto;
+}
 /* -------------------------------------------------TERCEIRA PÁGINA DA COUNTDOWN -------------------------- */
 
 #maindiv{
@@ -208,4 +239,73 @@ hr {
 
 
 
-/* -------------------------------------------------to-do list-------------------------- */
+/* -------------------------------------------------cripto css-------------------------- */
+#crip-main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: 2rem;
+    margin-left: 12rem;
+    margin-right:10rem;
+    
+}
+
+.criptoitem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 1rem;
+    align-items: center;
+    margin:1rem;
+}
+
+.criptolabel{
+    font-size: 1.5rem;
+    padding:1rem;
+    margin-top:0.1rem;
+}
+
+#buttonscripto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 27rem;
+
+    
+}
+
+.buttoncrip{
+    margin:1rem;
+    padding:0.5rem;
+    text-transform: uppercase;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.50), 0 6px 6px rgba(0,0,0,0.40);
+}
+
+#ptext{
+    text-align: center;
+    padding:1rem;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    background-color: #220D00;
+    color:#D95A11;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.50), 0 6px 6px rgba(0,0,0,0.40);
+    text-transform: uppercase;
+}
+
+#buttoncrip1 , #buttoncrip2 {
+    margin:1rem;
+    
+
+}
+
+
+
+.container{
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.card{
+    font-size:1rem;
+}
